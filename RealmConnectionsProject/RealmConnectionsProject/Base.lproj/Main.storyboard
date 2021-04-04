@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Useful ConnectionsTVC-->
+        <!--Useful Connections-->
         <scene sceneID="2vy-NL-irT">
             <objects>
                 <tableViewController id="fz5-P0-RBW" customClass="UsefulConnectionsTVC" customModule="RealmConnectionsProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -77,7 +77,18 @@
                             <outlet property="delegate" destination="fz5-P0-RBW" id="gbT-jI-wX7"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="MNX-tp-mOM"/>
+                    <navigationItem key="navigationItem" title="Useful Connections" id="MNX-tp-mOM">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="qhP-5F-3aW">
+                            <connections>
+                                <action selector="addConnection:" destination="fz5-P0-RBW" id="dSx-TZ-mwl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="73d-Dn-F8U" id="Tnt-pg-eZG"/>
+                        <outlet property="emaiLabel" destination="NUl-wj-2iU" id="2cF-Sp-bQI"/>
+                        <outlet property="ratingLabel" destination="ZQM-Cq-YMa" id="BTo-3d-J9Q"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xya-1O-DBd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
