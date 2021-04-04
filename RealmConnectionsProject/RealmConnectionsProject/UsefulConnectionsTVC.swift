@@ -18,7 +18,7 @@ class UsefulConnectionsTVC: UITableViewController {
     let realm = RealmService.shared.rm
     usefulConnections = realm.objects(UsefulConnectionModel.self)
  
-  print(Realm.Configuration.defaultConfiguration.fileURL)
+    print(Realm.Configuration.defaultConfiguration.fileURL ?? "No URL to Realm.Configuration file")
  
   }
  
