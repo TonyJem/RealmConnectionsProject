@@ -18,6 +18,7 @@
 		3A9762CB26197FB5008446A0 /* UsefulConnectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9762CA26197FB5008446A0 /* UsefulConnectionCell.swift */; };
 		3A9762CE26198038008446A0 /* UsefulConnectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9762CD26198038008446A0 /* UsefulConnectionModel.swift */; };
 		3A9762D12619806E008446A0 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9762D02619806E008446A0 /* RealmService.swift */; };
+		3A9762D4261980B5008446A0 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9762D3261980B5008446A0 /* AlertService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3A9762CA26197FB5008446A0 /* UsefulConnectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulConnectionCell.swift; sourceTree = "<group>"; };
 		3A9762CD26198038008446A0 /* UsefulConnectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulConnectionModel.swift; sourceTree = "<group>"; };
 		3A9762D02619806E008446A0 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		3A9762D3261980B5008446A0 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				3A9762CA26197FB5008446A0 /* UsefulConnectionCell.swift */,
 				3A9762CD26198038008446A0 /* UsefulConnectionModel.swift */,
 				3A9762D02619806E008446A0 /* RealmService.swift */,
+				3A9762D3261980B5008446A0 /* AlertService.swift */,
 				3A9762B126197D7B008446A0 /* Main.storyboard */,
 				3A9762B426197D7F008446A0 /* Assets.xcassets */,
 				3A9762B626197D7F008446A0 /* LaunchScreen.storyboard */,
@@ -159,6 +162,7 @@
 			files = (
 				3A9762AC26197D7B008446A0 /* AppDelegate.swift in Sources */,
 				3A9762D12619806E008446A0 /* RealmService.swift in Sources */,
+				3A9762D4261980B5008446A0 /* AlertService.swift in Sources */,
 				3A9762CE26198038008446A0 /* UsefulConnectionModel.swift in Sources */,
 				3A9762CB26197FB5008446A0 /* UsefulConnectionCell.swift in Sources */,
 				3A9762AE26197D7B008446A0 /* SceneDelegate.swift in Sources */,
