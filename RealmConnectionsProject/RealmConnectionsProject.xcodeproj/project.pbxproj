@@ -16,6 +16,7 @@
 		3A9762C526197E57008446A0 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3A9762C426197E57008446A0 /* RealmSwift */; };
 		3A9762C826197F2F008446A0 /* UsefulConnectionsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9762C726197F2F008446A0 /* UsefulConnectionsTVC.swift */; };
 		3A9762CB26197FB5008446A0 /* UsefulConnectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9762CA26197FB5008446A0 /* UsefulConnectionCell.swift */; };
+		3A9762CE26198038008446A0 /* UsefulConnectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9762CD26198038008446A0 /* UsefulConnectionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3A9762B926197D7F008446A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A9762C726197F2F008446A0 /* UsefulConnectionsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulConnectionsTVC.swift; sourceTree = "<group>"; };
 		3A9762CA26197FB5008446A0 /* UsefulConnectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulConnectionCell.swift; sourceTree = "<group>"; };
+		3A9762CD26198038008446A0 /* UsefulConnectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulConnectionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				3A9762AD26197D7B008446A0 /* SceneDelegate.swift */,
 				3A9762C726197F2F008446A0 /* UsefulConnectionsTVC.swift */,
 				3A9762CA26197FB5008446A0 /* UsefulConnectionCell.swift */,
+				3A9762CD26198038008446A0 /* UsefulConnectionModel.swift */,
 				3A9762B126197D7B008446A0 /* Main.storyboard */,
 				3A9762B426197D7F008446A0 /* Assets.xcassets */,
 				3A9762B626197D7F008446A0 /* LaunchScreen.storyboard */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A9762AC26197D7B008446A0 /* AppDelegate.swift in Sources */,
+				3A9762CE26198038008446A0 /* UsefulConnectionModel.swift in Sources */,
 				3A9762CB26197FB5008446A0 /* UsefulConnectionCell.swift in Sources */,
 				3A9762AE26197D7B008446A0 /* SceneDelegate.swift in Sources */,
 				3A9762C826197F2F008446A0 /* UsefulConnectionsTVC.swift in Sources */,
