@@ -70,6 +70,11 @@
                                         <constraint firstItem="giB-ba-5dn" firstAttribute="leading" secondItem="Csr-8o-C6R" secondAttribute="leadingMargin" constant="10" id="kOP-3y-pqE"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="73d-Dn-F8U" id="AcS-Np-tiB"/>
+                                    <outlet property="emailLabel" destination="NUl-wj-2iU" id="MqN-DQ-KUT"/>
+                                    <outlet property="ratingLabel" destination="ZQM-Cq-YMa" id="kPZ-pH-x5U"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -84,11 +89,6 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="descriptionLabel" destination="73d-Dn-F8U" id="Tnt-pg-eZG"/>
-                        <outlet property="emaiLabel" destination="NUl-wj-2iU" id="2cF-Sp-bQI"/>
-                        <outlet property="ratingLabel" destination="ZQM-Cq-YMa" id="BTo-3d-J9Q"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xya-1O-DBd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
